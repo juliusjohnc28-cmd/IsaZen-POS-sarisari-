@@ -1,0 +1,11 @@
+name = "isaiah-store"
+pages_build_output_dir = "dist"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+# Created by `wrangler d1 create isaiah-store-db`.
+# Paste the database_id it prints below.
+[[d1_databases]]
+binding = "DB"
+database_name = "isaiah-store-db"
+database_id = "cbc4146a-2206-446d-b799-e77ac6305874"

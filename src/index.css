@@ -1,0 +1,48 @@
+@import "tailwindcss";
+@import "./dark.css";
+@import "./dashboard.css";
+
+/* Slightly larger small text so prices and labels are easy to read on a phone */
+@theme {
+  --text-xs: 0.8125rem;
+  --text-xs--line-height: 1.25rem;
+  --text-sm: 0.9375rem;
+  --text-sm--line-height: 1.4rem;
+}
+
+:root {
+  /* Height of the phone navigation bar at the bottom (used to keep sheets and toasts above it) */
+  --bottom-nav-h: calc(3.5rem + env(safe-area-inset-bottom, 0px));
+}
+
+/* Easier to tap with a finger: buttons, dropdowns and text boxes are at least 40px tall on touch screens */
+@media (pointer: coarse) {
+  button,
+  select,
+  summary,
+  input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="file"]) {
+    min-height: 40px;
+  }
+}
+
+/* Small text links inside cards (like "+ Add capital") may be a little shorter than a full button */
+@media (pointer: coarse) {
+  button.tap-compact { min-height: 32px; }
+}
+
+/* Visible keyboard focus everywhere */
+:focus-visible {
+  outline: 2px solid #6366f1;
+  outline-offset: 2px;
+}
+
+/* Printing the utang statement: show only the clean printout, not the app */
+#print-root { display: none; }
+@media print {
+  #root { display: none !important; }
+  #print-root { display: block !important; color: #000; background: #fff; font-family: system-ui, sans-serif; padding: 8px; }
+}
+
+/* Rows of buttons that scroll sideways without showing a scrollbar */
+.no-scrollbar { scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }

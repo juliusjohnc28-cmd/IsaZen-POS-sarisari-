@@ -1,0 +1,6 @@
+{
+  "name": "Sari-Sari Inventory",
+  "description": "A simple in and out inventory management system for a sari-sari store.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

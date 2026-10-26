@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#4f46e5"/>
+  <!-- awning -->
+  <polygon points="10,22 14,12 50,12 54,22" fill="#eef2ff"/>
+  <rect x="10" y="22" width="44" height="4" fill="#ffffff"/>
+  <circle cx="14" cy="26" r="4" fill="#ffffff"/>
+  <circle cx="22" cy="26" r="4" fill="#ffffff"/>
+  <circle cx="30" cy="26" r="4" fill="#ffffff"/>
+  <circle cx="38" cy="26" r="4" fill="#ffffff"/>
+  <circle cx="46" cy="26" r="4" fill="#ffffff"/>
+  <!-- shop body -->
+  <rect x="14" y="30" width="36" height="20" rx="1.5" fill="#ffffff"/>
+  <!-- door -->
+  <rect x="28" y="38" width="8" height="12" rx="1" fill="#4f46e5"/>
+  <!-- windows -->
+  <rect x="18" y="34" width="7" height="7" rx="1" fill="#c7d2fe"/>
+  <rect x="39" y="34" width="7" height="7" rx="1" fill="#c7d2fe"/>
+</svg>

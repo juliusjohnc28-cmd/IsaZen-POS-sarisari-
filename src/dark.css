@@ -1,0 +1,106 @@
+/* Dark mode for the store screens. Generated from the colors those screens use.
+   Turned on by the moon button in the header (adds class "dark" to <html>).
+   The login and customer screens are already dark, so they are left alone. */
+html.dark .app-shell { color-scheme: dark; }
+html.dark .app-shell .bg-amber-100, html.dark .app-shell.bg-amber-100 { background-color: rgba(245,158,11,0.180); }
+html.dark .app-shell .bg-amber-50, html.dark .app-shell.bg-amber-50 { background-color: rgba(245,158,11,0.100); }
+html.dark .app-shell .bg-amber-50\/60, html.dark .app-shell.bg-amber-50\/60 { background-color: rgba(245,158,11,0.096); }
+html.dark .app-shell .bg-emerald-100, html.dark .app-shell.bg-emerald-100 { background-color: rgba(16,185,129,0.180); }
+html.dark .app-shell .bg-emerald-50, html.dark .app-shell.bg-emerald-50 { background-color: rgba(16,185,129,0.100); }
+html.dark .app-shell .bg-indigo-100, html.dark .app-shell.bg-indigo-100 { background-color: rgba(99,102,241,0.180); }
+html.dark .app-shell .bg-indigo-50, html.dark .app-shell.bg-indigo-50 { background-color: rgba(99,102,241,0.100); }
+html.dark .app-shell .bg-orange-100, html.dark .app-shell.bg-orange-100 { background-color: rgba(249,115,22,0.180); }
+html.dark .app-shell .bg-red-100, html.dark .app-shell.bg-red-100 { background-color: rgba(239,68,68,0.180); }
+html.dark .app-shell .bg-red-50, html.dark .app-shell.bg-red-50 { background-color: rgba(239,68,68,0.100); }
+html.dark .app-shell .bg-red-50\/20, html.dark .app-shell.bg-red-50\/20 { background-color: rgba(239,68,68,0.050); }
+html.dark .app-shell .bg-red-50\/30, html.dark .app-shell.bg-red-50\/30 { background-color: rgba(239,68,68,0.050); }
+html.dark .app-shell .bg-red-50\/40, html.dark .app-shell.bg-red-50\/40 { background-color: rgba(239,68,68,0.064); }
+html.dark .app-shell .bg-rose-100, html.dark .app-shell.bg-rose-100 { background-color: rgba(244,63,94,0.180); }
+html.dark .app-shell .bg-rose-50, html.dark .app-shell.bg-rose-50 { background-color: rgba(244,63,94,0.100); }
+html.dark .app-shell .bg-sky-100, html.dark .app-shell.bg-sky-100 { background-color: rgba(14,165,233,0.180); }
+html.dark .app-shell .bg-sky-50, html.dark .app-shell.bg-sky-50 { background-color: rgba(14,165,233,0.100); }
+html.dark .app-shell .bg-slate-100, html.dark .app-shell.bg-slate-100 { background-color: #0f172a; }
+html.dark .app-shell .bg-slate-200, html.dark .app-shell.bg-slate-200 { background-color: #334155; }
+html.dark .app-shell .bg-slate-200\/80, html.dark .app-shell.bg-slate-200\/80 { background-color: rgba(51,65,85,0.800); }
+html.dark .app-shell .bg-slate-50, html.dark .app-shell.bg-slate-50 { background-color: #0f172a; }
+html.dark .app-shell .bg-slate-50\/50, html.dark .app-shell.bg-slate-50\/50 { background-color: rgba(15,23,42,0.500); }
+html.dark .app-shell .bg-slate-50\/60, html.dark .app-shell.bg-slate-50\/60 { background-color: rgba(15,23,42,0.600); }
+html.dark .app-shell .bg-teal-100, html.dark .app-shell.bg-teal-100 { background-color: rgba(20,184,166,0.180); }
+html.dark .app-shell .bg-violet-100, html.dark .app-shell.bg-violet-100 { background-color: rgba(139,92,246,0.180); }
+html.dark .app-shell .bg-white, html.dark .app-shell.bg-white { background-color: #1e293b; }
+html.dark .app-shell .bg-white\/20, html.dark .app-shell.bg-white\/20 { background-color: rgba(30,41,59,0.200); }
+html.dark .app-shell .bg-white\/70, html.dark .app-shell.bg-white\/70 { background-color: rgba(30,41,59,0.700); }
+html.dark .app-shell .border-amber-200, html.dark .app-shell.border-amber-200 { border-color: rgba(245,158,11,0.350); }
+html.dark .app-shell .border-emerald-200, html.dark .app-shell.border-emerald-200 { border-color: rgba(16,185,129,0.350); }
+html.dark .app-shell .border-indigo-200, html.dark .app-shell.border-indigo-200 { border-color: rgba(99,102,241,0.350); }
+html.dark .app-shell .border-red-100, html.dark .app-shell.border-red-100 { border-color: rgba(239,68,68,0.250); }
+html.dark .app-shell .border-red-200, html.dark .app-shell.border-red-200 { border-color: rgba(239,68,68,0.350); }
+html.dark .app-shell .border-red-300, html.dark .app-shell.border-red-300 { border-color: rgba(239,68,68,0.450); }
+html.dark .app-shell .border-rose-200, html.dark .app-shell.border-rose-200 { border-color: rgba(244,63,94,0.350); }
+html.dark .app-shell .border-slate-100, html.dark .app-shell.border-slate-100 { border-color: #1e293b; }
+html.dark .app-shell .border-slate-200, html.dark .app-shell.border-slate-200 { border-color: #334155; }
+html.dark .app-shell .border-slate-300, html.dark .app-shell.border-slate-300 { border-color: #475569; }
+html.dark .app-shell .border-white, html.dark .app-shell.border-white { border-color: #334155; }
+html.dark .app-shell .border-white\/80, html.dark .app-shell.border-white\/80 { border-color: rgba(51,65,85,0.800); }
+html.dark .app-shell .disabled\:bg-slate-300:disabled, html.dark .app-shell.disabled\:bg-slate-300:disabled { background-color: #475569; }
+html.dark .app-shell .divide-slate-100 > :not(:last-child) { border-color: #1e293b; }
+html.dark .app-shell .divide-slate-200 > :not(:last-child) { border-color: #334155; }
+html.dark .app-shell .focus\:bg-white:focus, html.dark .app-shell.focus\:bg-white:focus { background-color: #1e293b; }
+html.dark .app-shell .hover\:bg-amber-100:hover, html.dark .app-shell.hover\:bg-amber-100:hover { background-color: rgba(245,158,11,0.180); }
+html.dark .app-shell .hover\:bg-indigo-100:hover, html.dark .app-shell.hover\:bg-indigo-100:hover { background-color: rgba(99,102,241,0.180); }
+html.dark .app-shell .hover\:bg-indigo-50:hover, html.dark .app-shell.hover\:bg-indigo-50:hover { background-color: rgba(99,102,241,0.100); }
+html.dark .app-shell .hover\:bg-indigo-50\/70:hover, html.dark .app-shell.hover\:bg-indigo-50\/70:hover { background-color: rgba(99,102,241,0.112); }
+html.dark .app-shell .hover\:bg-red-50:hover, html.dark .app-shell.hover\:bg-red-50:hover { background-color: rgba(239,68,68,0.100); }
+html.dark .app-shell .hover\:bg-rose-100:hover, html.dark .app-shell.hover\:bg-rose-100:hover { background-color: rgba(244,63,94,0.180); }
+html.dark .app-shell .hover\:bg-rose-50:hover, html.dark .app-shell.hover\:bg-rose-50:hover { background-color: rgba(244,63,94,0.100); }
+html.dark .app-shell .hover\:bg-slate-100:hover, html.dark .app-shell.hover\:bg-slate-100:hover { background-color: #0f172a; }
+html.dark .app-shell .hover\:bg-slate-200:hover, html.dark .app-shell.hover\:bg-slate-200:hover { background-color: #334155; }
+html.dark .app-shell .hover\:bg-slate-300:hover, html.dark .app-shell.hover\:bg-slate-300:hover { background-color: #475569; }
+html.dark .app-shell .hover\:bg-slate-50:hover, html.dark .app-shell.hover\:bg-slate-50:hover { background-color: #0f172a; }
+html.dark .app-shell .hover\:bg-white\/20:hover, html.dark .app-shell.hover\:bg-white\/20:hover { background-color: rgba(30,41,59,0.200); }
+html.dark .app-shell .hover\:bg-white\/30:hover, html.dark .app-shell.hover\:bg-white\/30:hover { background-color: rgba(30,41,59,0.300); }
+html.dark .app-shell .hover\:border-slate-300:hover, html.dark .app-shell.hover\:border-slate-300:hover { border-color: #475569; }
+html.dark .app-shell .hover\:text-amber-500:hover, html.dark .app-shell.hover\:text-amber-500:hover { color: #fcd34d; }
+html.dark .app-shell .hover\:text-indigo-700:hover, html.dark .app-shell.hover\:text-indigo-700:hover { color: #a5b4fc; }
+html.dark .app-shell .hover\:text-red-700:hover, html.dark .app-shell.hover\:text-red-700:hover { color: #fca5a5; }
+html.dark .app-shell .hover\:text-rose-600:hover, html.dark .app-shell.hover\:text-rose-600:hover { color: #fda4af; }
+html.dark .app-shell .hover\:text-slate-600:hover, html.dark .app-shell.hover\:text-slate-600:hover { color: #cbd5e1; }
+html.dark .app-shell .hover\:text-slate-700:hover, html.dark .app-shell.hover\:text-slate-700:hover { color: #e2e8f0; }
+html.dark .app-shell .hover\:text-slate-800:hover, html.dark .app-shell.hover\:text-slate-800:hover { color: #f1f5f9; }
+html.dark .app-shell .hover\:text-slate-900:hover, html.dark .app-shell.hover\:text-slate-900:hover { color: #f1f5f9; }
+html.dark .app-shell .text-amber-500, html.dark .app-shell.text-amber-500 { color: #fcd34d; }
+html.dark .app-shell .text-amber-600, html.dark .app-shell.text-amber-600 { color: #fcd34d; }
+html.dark .app-shell .text-amber-700, html.dark .app-shell.text-amber-700 { color: #fcd34d; }
+html.dark .app-shell .text-amber-800, html.dark .app-shell.text-amber-800 { color: #fcd34d; }
+html.dark .app-shell .text-emerald-600, html.dark .app-shell.text-emerald-600 { color: #6ee7b7; }
+html.dark .app-shell .text-emerald-700, html.dark .app-shell.text-emerald-700 { color: #6ee7b7; }
+html.dark .app-shell .text-emerald-800, html.dark .app-shell.text-emerald-800 { color: #6ee7b7; }
+html.dark .app-shell .text-indigo-600, html.dark .app-shell.text-indigo-600 { color: #a5b4fc; }
+html.dark .app-shell .text-indigo-700, html.dark .app-shell.text-indigo-700 { color: #a5b4fc; }
+html.dark .app-shell .text-indigo-800, html.dark .app-shell.text-indigo-800 { color: #a5b4fc; }
+html.dark .app-shell .text-orange-700, html.dark .app-shell.text-orange-700 { color: #fdba74; }
+html.dark .app-shell .text-red-500, html.dark .app-shell.text-red-500 { color: #fca5a5; }
+html.dark .app-shell .text-red-600, html.dark .app-shell.text-red-600 { color: #fca5a5; }
+html.dark .app-shell .text-red-700, html.dark .app-shell.text-red-700 { color: #fca5a5; }
+html.dark .app-shell .text-red-800, html.dark .app-shell.text-red-800 { color: #fca5a5; }
+html.dark .app-shell .text-rose-600, html.dark .app-shell.text-rose-600 { color: #fda4af; }
+html.dark .app-shell .text-rose-700, html.dark .app-shell.text-rose-700 { color: #fda4af; }
+html.dark .app-shell .text-sky-600, html.dark .app-shell.text-sky-600 { color: #7dd3fc; }
+html.dark .app-shell .text-sky-700, html.dark .app-shell.text-sky-700 { color: #7dd3fc; }
+html.dark .app-shell .text-slate-300, html.dark .app-shell.text-slate-300 { color: #64748b; }
+html.dark .app-shell .text-slate-400, html.dark .app-shell.text-slate-400 { color: #94a3b8; }
+html.dark .app-shell .text-slate-500, html.dark .app-shell.text-slate-500 { color: #94a3b8; }
+html.dark .app-shell .text-slate-600, html.dark .app-shell.text-slate-600 { color: #cbd5e1; }
+html.dark .app-shell .text-slate-700, html.dark .app-shell.text-slate-700 { color: #e2e8f0; }
+html.dark .app-shell .text-slate-800, html.dark .app-shell.text-slate-800 { color: #f1f5f9; }
+html.dark .app-shell .text-slate-900, html.dark .app-shell.text-slate-900 { color: #f1f5f9; }
+html.dark .app-shell .text-teal-700, html.dark .app-shell.text-teal-700 { color: #5eead4; }
+html.dark .app-shell .text-violet-700, html.dark .app-shell.text-violet-700 { color: #c4b5fd; }
+html.dark .app-shell input::placeholder, html.dark .app-shell textarea::placeholder { color: #64748b; }
+html.dark .app-shell .shadow-sm, html.dark .app-shell .shadow-xs, html.dark .app-shell .shadow-2xs { --tw-shadow-color: rgba(0,0,0,.4); }
+
+/* Charts on the Dashboard: softer grid lines and a dark tooltip */
+html.dark .app-shell .recharts-cartesian-grid line { stroke: rgba(148, 163, 184, 0.14); }
+html.dark .app-shell .recharts-default-tooltip { background-color: #1e293b !important; border-color: #334155 !important; }
+html.dark .app-shell .recharts-tooltip-label, html.dark .app-shell .recharts-tooltip-item { color: #e2e8f0 !important; }
+html.dark .app-shell .recharts-cursor { fill: rgba(148,163,184,0.12); }
